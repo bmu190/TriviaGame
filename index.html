@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<header>
+ 
+  
+    
+    <h1>Wikipedia Junkie Trivia!</h1>
+    
+</header>
+
+<body style = background-image:url("assets/images/Wiki.jpg")>
+
+<body>
+    <div id="container">
+        <div id=start>
+            <button id="play">Start</button>
+        </div>
+        <br>
+        <div id=timer>You have <span id="countdown">15</span> seconds</div>
+        <br>
+        <div id="quiz">
+            <div id="questions">
+                <form>
+                    <label>What is the longest river in the world?</label>
+                      <br>
+                    <input type="radio" id="radio" name="choice1" value="Mekong"> Mekong
+                      <br>
+                    <input type="radio" id="radio" name="choice1" value="Missippi"> Missippi
+                      <br>
+                    <input type="radio" id="radio" name="choice1" value="Amazon"> Amazon
+                      <br>
+                      <br>
+                    <label>What is the largest city in the world?</label>
+                      <br>
+                    <input type="radio" id="radio" name="choice2" value="Mexico City"> Mexico City
+                      <br>
+                    <input type="radio" id="radio" name="choice2" value="Delhi">  Delhi
+                      <br>
+                    <input type="radio" id="radio" name="choice2" value="Chonquing"> Chonquing
+                      <br>
+                      <br>
+                    <label>What do Panda Bears primarily eat?</label>
+                      <br>
+                    <input type="radio" id="radio" name="choice3" value="Rabbits"> Rabbits
+                      <br>
+                    <input type="radio" id="radio" name="choice3" value="Bamboo"> Bamboo
+                      <br>
+                    <input type="radio" id="radio" name="choice3" value="Tacos"> Tacos
+                      <br>
+                      <br>
+                    <label>What is the Capital of Australia?</label>
+                      <br>
+                    <input type="radio" id="radio" name="choice4" value="Sydney"> Sydney
+                      <br>
+                    <input type="radio" id="radio" name="choice4" value="Glastonbury"> Glastonbury
+                      <br>
+                    <input type="radio" id="radio" name="choice4" value="Canberra"> Canberra
+                      <br>
+                      <br>
+                                                   
+                     </form>
+                
+            </div>
+            <button id="submit">No Mas!</button>
+        </div>
+        <div id=score>
+            <h1>You Got!</h1>
+            <p>Right: <span id=right>0</span></p>
+            <p>Not Right: <span id=notRight>0</span></p>
+            <p>Skipped: <span id=skipped>0</span></p>
+          </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
+
+
+
